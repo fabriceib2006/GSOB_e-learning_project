@@ -1,0 +1,161 @@
+@media screen and (max-width:1082px){
+    body{
+       max-width: 100%;
+       max-height: max-content;
+    }
+    nav{
+        position: fixed;
+        display: none;
+        max-width:100%;
+        width:25%;
+        height:97vh;
+        z-index:1;
+        right:0;
+        margin-top:-27px;
+        background-color:rgba(248, 248, 255, 1);
+    }
+    nav ul {
+        position: absolute;
+        left: 0px;
+        height: 100%;
+        width:100%;
+        margin: 0;
+        padding: 0;
+        margin:30px 50px;
+      }
+      nav ul li {
+        display: block; 
+        padding: 15px;
+        width:70px;
+        height:30px;
+        flex-direction:inherit;
+        flex-wrap: nowrap;
+      }
+      .menu-icon img{
+        display: block;
+      }
+
+     /* -css for files section-*/
+  .files-section{
+    position: absolute;
+    padding:5px 0;
+    max-width:66%;
+    width:100%;
+    top:20%;
+    right:2%;
+  }
+  .search{
+    position: relative;
+    display: flexbox;
+    flex-direction: row-reverse;
+  }
+  .search input[type=text] {
+    font-size: 18px;
+    width:270px;
+    padding: 3px;
+  }
+  
+.search button {
+    font-size: 17px;
+    width:40px;
+  }
+  table{
+    font-size:13px;
+  }
+  .copyright{
+    margin:0 10%;
+    width:100%;
+    font-size: x-small;
+  }
+}
+
+@media screen and (max-width:850px){
+  .logo-nav{
+    max-width: 100%;
+    margin:3% 0;
+    padding:0;
+  }
+  .logo-nav  img{
+    width:100px;
+    height:90px;
+  }
+}
+@media screen and (max-width:640px){
+  .logo-nav .row .column h4{
+    font-size:18px;
+    margin-left:4px;
+    margin-top:-2%;
+  }
+  .logo-nav .row .column{
+    display: block;
+    text-align: center;
+    justify-content: center;
+  }
+}
+@media screen and (max-width:970px){
+  .sort-div{
+    position: absolute;
+    max-width:100%;
+    width:80%;
+    height:76%;
+    float:left;
+    margin:3% 3%;
+    left:1%;
+    bottom:0;
+    border-top-style:none;
+  }
+  .sort-div select {
+    padding: 10px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    width:100%;
+    margin:4% 0;
+    font-size: medium;
+  }
+  .sort-div select::after {
+    content: "\25BC";
+    position: relative;
+  }
+}
+@media screen and (max-width:680px){
+  table{
+    font-size: 11px;
+    display: flexbox;
+    font-weight:lighter;
+  }
+  .search input[type=text] {
+    font-size: 13px;
+    width:180px;
+    padding: 5px;
+  }
+  .search button {
+    font-size: 13px;
+    width:40px;
+    padding:6px;
+  }
+}
+@media screen and (max-width:530px){
+  bady{
+    background-color:brown;
+  }
+  table{
+    font-size: x-small;
+    display: flexbox;
+  }
+  /* table data and heading margins */
+  table .th2 p{
+    margin:0 0.5%;
+   }
+   table .th2 a{
+    margin:0 0.5%;
+   }
+  table .th3 p{
+   margin:0 20%;
+  }
+  table .th4 a{
+    margin:0 20%;
+   }
+  table .th4 p{
+    margin:0 20%;
+   }
+}

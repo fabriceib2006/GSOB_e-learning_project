@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GSOB | Books and Assessments</title>
+<link rel="icon" type="img/PNG" href="img/logo.png">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="Style.css" />
+<link rel="stylesheet" type="text/css" href="screen_responsive_css_for_tablets.css" />
+</head>
+<body>
+    <div class="na-bar">
+        <nav id="nav-bar">
+            <div id="close" hight="90px" width="90px">
+                <img src="img/close.png" alt="Close button image" onclick="close()"  height="30" width="30">
+            </div>
+            <ul>
+                <li><a href="#">Senior 1</a></li>
+                <li><a href="#">Senior 2</a></li>
+                <li><a href="#">Senior 3</a></li>
+                <li><a href="#">Senior 4</a></li>
+                <li><a href="#">Senior 5</a></li>
+                <li><a href="#">Senior 6</a></li>
+            </ul>
+        </nav>
+    </div>
+<div onclick="menubar()" class="menu-icon">
+    <img src="img/menu.png" alt="Menu bar icon" height="30" width="30">
+</div>
+<section class="right-section-for-sort">
+    <div class="logo-nav">
+    <div class="row">
+        <a href="#">
+            <div class="column">
+                <img src="img/logo.png" alt="Iga logo" class="src">
+                <h4>E-Learning System</h4>
+            </div>
+        </a>
+    </div>
+</div>
+<div class="sort-div">
+    <div class="sorter-class">
+        <select id="sort-by">
+            <option value="all">All</option>
+            <option value="Mathematics">Mathematics</option>
+            <option value="Physics">Physics</option>
+            <option value="comp science">Computer science</option>
+            <option value="Entreprenuership">Entreprenuership</option>
+            <option value="General studies">General studies</option>
+            <option value="English">English</option>
+          </select>
+    </div>
+    <div class="copyright">
+        &copy;All copyright reserved
+    </div>
+</div>
+</section>
+<section class="files-section rows">
+    <center class="search">
+        <form action="/action_page.php">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+    </center>
+   <table>
+    <tr>
+        <th class="th1"></th>
+        <th class="th2">
+            <p>Title</p>
+        </th>
+        <th class="th3">
+            <p>Modified</p>
+        </th>
+      <th class="th4">
+        <p>Action</p>
+    </th>
+    </tr>
+    <tr>
+        <td class="th1">
+            <img src="img/pdf.png" alt="PDF file image" class="src">
+        </td>
+        <td class="th2"><a href="documents/Computer_Science_S4_SB.pdf" target="_blank">Computer_Science_S4_SB</a></td>
+        <td class="th3"><p>Nov 15,2024</p></td>
+        <td class="th4">
+            <a href="documents/Computer_Science_S4_SB.pdf">Download</a>
+        </td>
+    </tr>
+    <tr>
+        <td class="th1">
+            <img src="img/pdf.png" alt="PDF file image" class="src">
+        </td>
+        <td class="th2"><a href="documents/Computer_Science_S4_SB.pdf" target="_blank">Computer_Science_S4_SB</a></td>
+        <td class="th3"><p>Nov 15,2024</p></td>
+        <td class="th4">
+            <a href="documents/Computer_Science_S4_SB.pdf">Download</a>
+        </td>
+    </tr>
+    <tr>
+        <td class="th1">
+            <img src="img/pdf.png" alt="PDF file image" class="src">
+        </td>
+        <td class="th2"><a href="documents/Computer_Science_S4_SB.pdf" target="_blank">Computer_Science_S4_SB</a></td>
+        <td class="th3"><p>Nov 15,2024</p></td>
+        <td class="th4">
+            <a href="documents/Computer_Science_S4_SB.pdf">Download</a>
+        </td>
+    </tr>
+    <tr>
+        <td class="th1">
+            <img src="img/pdf.png" alt="PDF file image" class="src">
+        </td>
+        <td class="th2"><a href="documents/Computer_Science_S4_SB.pdf" target="_blank">Computer_Science_S4_SB</a></td>
+        <td class="th3"><p>Nov 15,2024</p></td>
+        <td class="th4">
+            <a href="documents/Computer_Science_S4_SB.pdf">Download</a>
+        </td>
+    </tr>
+    <tr>
+        <td class="th1">
+            <img src="img/pdf.png" alt="PDF file image" class="src">
+        </td>
+        <td class="th2"><a href="documents/Computer_Science_S4_SB.pdf" target="_blank">Computer_Science_S4_SB</a></td>
+        <td class="th3"><p>Nov 15,2024</p></td>
+        <td class="th4">
+            <a href="documents/Computer_Science_S4_SB.pdf">Download</a>
+        </td>
+    </tr>
+   </table>
+</section>
+<script>
+    var navbar=document.getElementById("nav-bar");
+    var close=document.getElementById("close");
+    function menubar(){
+        navbar.style.display="block";
+        close.style.display="block";
+    }
+    document.getElementById("close").addEventListener("click", function() {
+        navbar.style.display = "none";
+      });
+</script>
+</body>
+</html>
